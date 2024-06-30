@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAKE NEWS DETECTION</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: white;
+            position: relative;
+        }
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .fake-detection {
+            font-size: 60px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .center-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+        }
+        .center-image img {
+            max-width: 80%;
+            max-height: 80%;
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+            line-height: 32px;
+            margin: 20px 0;
+        }
+        .read-more {
+            font-size: 20px;
+            background-color: black;
+            line-height: 30px;
+            text-decoration: none;
+            color: white;
+            padding: 5px 15px;
+            display: inline-block;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .read-more:hover {
+            background-color: #333;
+        }
+        hr {
+            margin-top: 40px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .image-container img {
+            width: 30%;
+            margin: 10px;
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .navigation a {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: background-color 0.3s;
+        }
+        .navigation a:hover {
+            background-color: #333;
+        }
+        .detect-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .detect-button a {
+            padding: 15px 30px; /* Increased padding */
+            background-color: white; /* Changed background color */
+            color: black; /* Changed text color */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-size: 24px; /* Increased font size */
+            margin-top: 20px; /* Added margin */
+            display: inline-block;
+        }
+        .detect-button a:hover {
+            background-color: #eee; /* Lightened button color on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="center-image">
+        <img src="E:/fake/detect.jpg" alt="Fake Detection Image">
+    </div>
+    <h1>_____________</h1>
+    <div class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+    </div>
+    <p>The aim of the fake news project is to help news readers to identify bias and misinformation in news articles in a quick and reliable fashion. We have collected news articles with veracity labels from fact-checking websites and used them to train text classification systems to detect fake from real news. You can paste a piece of text and examine its similarity to our collection of true vs. false news articles, or to news from four different types/genres. Enjoy testing!</p>
+    <div style="text-align:center;"><a class="read-more" href="https://en.wikipedia.org/wiki/Fake_news">Read more</a></div>
+    <hr>
+    <div class="detect-button">
+        <a href="fake_news_detection.html">Fake News Detection</a>
+    </div>
+    <div class="image-container">
+        <img src="images.jpeg">
+    </div>
+</body>
+</html>
